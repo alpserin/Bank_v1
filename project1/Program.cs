@@ -26,7 +26,7 @@ namespace Bank_v1
 
         }
 
-        // more to be added..
+        // more to be added...
     }
 
     class BankAccount
@@ -69,7 +69,7 @@ namespace Bank_v1
             return true;
         }
 
-        // more to be added..
+        // more to be added...
 
 
     }
