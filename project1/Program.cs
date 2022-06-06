@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace project1
+namespace Bank_v1
 {
-    class customer
+    class Customer
     {
         public string Name;
         public string Surname;
@@ -33,7 +33,7 @@ namespace project1
     {
         public string AccountNumber;
         public int Balance;
-        public customer Owner;
+        public Customer Owner;
         public DateTime OpeningDate;
         public string AccountType;
 
@@ -77,7 +77,7 @@ namespace project1
     {
         static void Main(string[] args)
         {
-            customer c1 = new customer();
+            Customer c1 = new Customer();
             c1.Name = "Alp";
             c1.Surname = "Serin";
             c1.age = 23;
